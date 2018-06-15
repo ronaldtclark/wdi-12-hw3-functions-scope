@@ -1,5 +1,5 @@
 ## More problem solving with Functions <br>
-### CSS Videos for tomorrow
+
 ---
 Title: Problem solving with functions<br>
 Duration: "3:00 - 4:00" <br>
@@ -12,7 +12,18 @@ Topics: Problem solving with functions<br>
 # Homework
 
 ## Setup
-1) Create our folder structure inside this repo and put your answers in `app.js`.  Comment out any answers in english (such as the first question). For the rest, where you're coding, you should be running your code as you go.  When you submit the file, all the completed javascript questions should be runnable from the browser.
+1) Create our folder structure inside this repo and put your answers in `app.js`.  Comment out any answers in english (such as the first question). For the rest, where you're coding, you should be running your code as you go.  When you submit the file, all the completed javascript questions should be active (i.e. **not** commented out/runnable from the browser). Even better, 
+after each function, run it with a few test cases. Like this: 
+
+```javascript
+const checkPalindrome = (wordToCheck) => {
+ /// your code
+}
+
+checkPalindrome("radar");
+checkPalindrome("mouse");
+```
+
 <br>
 
 ## Functions
