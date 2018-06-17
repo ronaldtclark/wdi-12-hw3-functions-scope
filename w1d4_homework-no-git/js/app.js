@@ -19,8 +19,18 @@ console.log(checkPalindrome ("radar"));
 console.log(checkPalindrome ("mouse"));
 console.log(checkPalindrome ("wooooork"));
 
+// Unsure why this isnt working. Moving on....
 
+const sumDigits = (num) => {
+  let digits = num.toString();
+  let splitDigits = digits.split(" ");
+  
+  for (let i = 0; i < splitDigits.length; i++) {
+    parseInt(splitDigits[i]);
+  return splitDigits.reduce((a, b) => a + b); 
+  }
+};
+console.log(sumDigits(42));
 
-
-
+// Also not working...
 
